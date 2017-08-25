@@ -1,0 +1,29 @@
+Reading input parameters
+ -> matched budget equations by adjusting Omega_Lambda = 7.664264e-01
+Running CLASS version v2.6.0
+Computing background
+ -> age = 13.385894 Gyr
+ -> conformal age = 14251.797355 Mpc
+Computing thermodynamics with Y_He=0.2491
+ -> recombination at z = 1085.151576
+    corresponding to conformal time = 286.371477 Mpc
+    with comoving sound horizon = 145.350471 Mpc
+    angular diameter distance = 12.857714 Mpc
+    and sound horizon angle 100*theta_s = 1.040788
+ -> baryon drag stops at z = 1066.113869
+    corresponding to conformal time = 290.203269 Mpc
+    with comoving sound horizon rs = 147.036980 Mpc
+ -> reionization with optical depth = 0.110332
+    corresponding to conformal time = 4397.822255 Mpc
+Computing sources
+Computing primordial spectra (analytic spectrum)
+Computing non-linear matter power spectrum with Halofit (including update Takahashi et al. 2012 and Bird 2014)
+ -> [WARNING:] Halofit non-linear corrections could not be computed at redshift z= 3.50 and higher.
+    This is probably because k_max is too small for Halofit to be able to compute the scale k_NL at this redshift.
+    If non-linear corrections at such high redshift really matter for you,
+    just try to increase P_k_max_h/Mpc or P_k_max_1/Mpc until reaching desired z.
+No harmonic space transfer functions to compute. Transfer module skipped.
+Computing unlensed linear spectra
+ -> sigma8=0.759213 (computed till k = 11.7275 h/Mpc)
+No lensing requested. Lensing module skipped.
+Writing output files in output/tuple/h_vs_Omega_cdm_nl_00026... 
